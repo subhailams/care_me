@@ -1,0 +1,240 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:theme="@style/Animation.AppCompat.Dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Care Me"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <EditText
+        android:id="@+id/command_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:hint="@string/command_hint"
+        android:imeOptions="actionSend" />
+
+        <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="sendCommand"
+        android:text="@string/button_send" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="291dp"
+        android:layout_height="74dp"
+        android:orientation="horizontal"
+        android:paddingLeft="90dp"
+        android:weightSum="5">
+
+        <!--<Button
+            android:id="@+id/heartbeatgraph"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="heartfuncchart"
+            android:text="CHART"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/mybutton"
+            />-->
+        <!--<ImageView
+            android:layout_width="229dp"
+            android:layout_height="100dp"
+            android:onClick="heartfunctv"
+            android:src="@drawable/temp"
+            />-->
+        <Button
+            android:id="@+id/heartbeattextview"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="61dp"
+            android:background="@drawable/mybutton"
+            android:onClick="heartfunctv"
+            android:text="Check Temperature"
+            android:textColor="@color/colorPrimary" />
+
+        <!--<Button
+            android:id="@+id/heartbeattextview"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="heartfunctv"
+            android:text="TEXT VIEW"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/mybutton"/>-->
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:paddingLeft="90dp">
+
+        <!--<ImageView
+            android:layout_width="229dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bpm" />-->
+        <!-- <TextView
+             android:layout_width="20dp"
+             android:layout_height="20dp" />-->
+        <Button
+            android:id="@+id/bpmgraph"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/mybutton"
+            android:onClick="bpmtv"
+            android:text="Check BPM"
+            android:textColor="@color/colorPrimary" />
+       <!-- <TextView
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />-->
+       <!-- <Button
+            android:id="@+id/bpmtv"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="bpmtv"
+            android:text="TEXT VIEW"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/mybutton"
+            />-->
+
+
+    </LinearLayout>
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/bpm"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="BPM"-->
+        <!--android:text="BPM" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/health"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="health"-->
+        <!--android:text="Check status of Health" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn"-->
+    <!--android:text="to graph"-->
+    <!--android:onClick="gotohell"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--&lt;!&ndash;<com.jjoe64.graphview.helper.GraphViewXML&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/graphView"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_below="@+id/btn"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:seriesType="line"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:seriesData="0=0;0=0;0=0;0=0"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp"
+        android:weightSum="5">
+
+
+        <Button
+            android:id="@+id/checkstatus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_round"
+            android:ellipsize="middle"
+            android:onClick="health"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="Scan"
+            android:textSize="25dp"
+            android:verticalScrollbarPosition="defaultPosition" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/log_textview"
+            android:layout_width="343dp"
+            android:layout_height="202dp"
+            android:background="@drawable/pr_box"
+            android:clickable="false"
+            android:enabled="true"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/white"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+
+    </LinearLayout>
+</LinearLayout>

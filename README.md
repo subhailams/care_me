@@ -1,24 +1,35 @@
-# care_me
-Real-Time spontaneous abortion prediction and Health assessment of  Pregnant women using Machine Learning and IoT.
+##Bluetooth-spp-terminal
+(based on Android Bluetooth chat sample)
 
-# Abstract
-Sensors and the Internet of Things proved to be extremely helpful in understanding and examining the human way of life. This aimed to exploit such developments to predict unnatural birth cycles, track the health of the pregnant lady for any abnormalities and assist pregnant women to react in advance to a plausible premature delivery and alarm to doctors and families in any abnormal condition. To accomplish this, we suggest consolidating the advantages and preferences of both AI and Big Data devices connected to continuously created information from cell phone/sensors. Kmeans clustering is used for miscarriage prediction and predicted clusters are transferred in a flexible implementation to the pregnant woman in her front end UI with the aim of being able to settle on her decisions if an abnormal birth cycle or probable premature delivery occurs. In addition to this, some vital parameters of pregnant women such as pressure, temperature, heartbeat rate are observed and measured to continually monitor the pregnant women's health condition. This document offers a wearable device that checks the vital parameters for a patient to be tracked on an ongoing basis and does continuous information logging.
+### Features
+#### v-1.1 (03.11.2016)
+ * Calc and check Modulo256 checksum;
+ * Drop deprecated Android 2.x support;
+ * Minor fixes/improvements;
 
-# Technologies
+#### v-1.0 (17.04.2014)
+ * Search and connect to bluetooth devices in slave mode via RFCOMM;
+ * Send commands to devices both ASCII and hex modes;
+ * Share and clean log;
+ * English/Russian i18n;
+ 
 
-Software components:
-     
-FireBase Database 
-ML Tools : 
-Numpy, Pandas - Data Analysis
-Scikit Learn - Regression Algorithm
-Tensorflow 
-K means Clustering
-K nearest Neghbours
-         
-Hardware components:
-Arduino
-Bluetooth module Hc-05
-Heart rate monitor
-Ds18b20 temperature sensor module  
-Accelerometer sensor
+### Download
+* on [F-Droid](https://f-droid.org/repository/browse/?fdid=ru.sash0k.bluetooth_terminal).
+* on the [Play Store](https://play.google.com/store/apps/details?id=ru.sash0k.bluetooth_terminal).
+* directly on [GitHub](https://github.com/Sash0k/bluetooth-spp-terminal/releases).
+
+###License
+
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

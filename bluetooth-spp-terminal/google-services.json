@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "559737510625",
+    "firebase_url": "https://bluetoothsmartband.firebaseio.com",
+    "project_id": "bluetoothsmartband",
+    "storage_bucket": "bluetoothsmartband.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559737510625:android:9c7db0a64788f6c1",
+        "android_client_info": {
+          "package_name": "com.example.firebasetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559737510625-934ii2425amvg47kdj8goqaadbn9cucp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasetry",
+            "certificate_hash": "ae06ddfed130bec0d85f8359520c7c2f9e377a99"
+          }
+        },
+        {
+          "client_id": "559737510625-h8mmtnn2935c04ocf5c4nppvh4m9vsqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx93Kz18WDdWnOU1tCSLBWzmqe6BEfRD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559737510625-h8mmtnn2935c04ocf5c4nppvh4m9vsqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559737510625:android:5e53010442a90f86",
+        "android_client_info": {
+          "package_name": "ru.sash0k.bluetooth_terminal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559737510625-i91kvvq3hjum0fntq4sfa11vltqmj6f4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.sash0k.bluetooth_terminal",
+            "certificate_hash": "b18cb3c79ea2356fbb28e8aeeb540ada98a8ccf7"
+          }
+        },
+        {
+          "client_id": "559737510625-h8mmtnn2935c04ocf5c4nppvh4m9vsqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx93Kz18WDdWnOU1tCSLBWzmqe6BEfRD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559737510625-h8mmtnn2935c04ocf5c4nppvh4m9vsqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

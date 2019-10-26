@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEART BEAT"
+        />
+    <!--<EditText-->
+        <!--android:id="@+id/x_value"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="YVALUE"-->
+   <!--/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/y_value"-->
+        <!--android:layout_below="@+id/x_value"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn"-->
+        <!--android:onClick="gotohell"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/y_value"-->
+        <!--android:text="Button" />-->
+    <com.jjoe64.graphview.helper.GraphViewXML
+        android:layout_width="match_parent"
+        android:id="@+id/graphView"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        app:seriesType="line"
+        app:seriesData="0=0;0=0;0=0;0=0"
+
+      />
+        <!--app:seriesColor="#ee0000"-->
+    <!--app:seriesType="line"-->
+    <!--&lt;!&ndash;app:seriesData="0=5;2=5;3=0;4=2"&ndash;&gt;-->
+
+</LinearLayout>

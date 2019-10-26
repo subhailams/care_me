@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bpm">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<TextView-->
+    <!--android:text="Enter X and y :"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<EditText-->
+    <!--android:id="@+id/cood"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:layout_width="180dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:text="push"-->
+    <!--android:onClick="push"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:text="Update BPM"
+        android:onClick="update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/mybutton"
+        />
+
+    <com.jjoe64.graphview.helper.GraphViewXML
+        android:layout_width="match_parent"
+        android:id="@+id/bpmgraph"
+        android:layout_height="wrap_content"
+        app:seriesColor="#ee0000"
+        app:seriesData="0=0;0=0;0=0;0=0"
+        app:seriesType="line" />
+
+
+</LinearLayout>
