@@ -6,14 +6,14 @@ Sensors and the Internet of Things proved to be extremely helpful in understandi
 
 FireBase Database 
 # ML Tools : 
-Numpy, Pandas - Data Analysis
-Scikit Learn - Regression Algorithm
-K means Clustering using Tensorflow
+* Numpy, Pandas - Data Analysis
+* Scikit Learn - Regression Algorithm
+* K means Clustering using Tensorflow
 Seaborn Visualisation
 # Hardware :
-Arduino
-Bluetooth module Hc-05
-Heart rate monitor
-Ds18b20 temperature sensor module  
-Accelerometer sensor
+* Arduino
+* Bluetooth module Hc-05
+* Heart rate monitor
+* Ds18b20 temperature sensor module  
+* Accelerometer sensor
 
